@@ -1,8 +1,10 @@
 .App {
   height: 100vh;
-  background-color: #1a202c;
+  background-color: #f39ee1;
   overflow: scroll;
   text-align: center;
+  padding-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .container {
@@ -66,25 +68,19 @@
 }
 
 .footer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: solid 2px #fff;
   position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  padding-bottom: 45px;
-}
-
-.twitter-logo {
-  width: 35px;
-  height: 35px;
+  width: 400px;
+  top: 0;
+  right: 0;
 }
 
 .footer-text {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  text-align: left;
+  padding: 0 10px;
 }
 
 .gif-grid {
