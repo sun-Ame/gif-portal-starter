@@ -45,17 +45,18 @@
   height: 45px;
   border: 0;
   width: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 70px;
+  padding-right: 60px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin-top: 40px;
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #69d3c5, #35aee2);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
@@ -70,9 +71,10 @@
 .footer-container {
   border: solid 2px #fff;
   position: absolute;
-  width: 400px;
-  top: 0;
-  right: 0;
+  width: 800px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .footer-text {
